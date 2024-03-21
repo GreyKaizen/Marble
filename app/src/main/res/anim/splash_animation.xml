@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/anim/splash_animation.xml -->
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:duration="2000" /> <!-- Adjust duration as needed -->
+    <!-- You can include other animations like scale, translate, rotate here if desired -->
+</set>
+
