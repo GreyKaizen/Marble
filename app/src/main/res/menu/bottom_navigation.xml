@@ -3,18 +3,19 @@
 
     <item
         android:id="@+id/weather"
-        android:title="@string/weather"
-        android:icon="@drawable/weather"
-        />
+        android:title="@string/weather"/>
+<!--        android:icon="@drawable/weather"-->
+
     <item
 
         android:id="@+id/aimodule"
-        android:title="@string/aimodule"
-        android:icon="@drawable/aimodule"
-     />
+        android:title="@string/aimodule"/>
+<!--        android:icon="@drawable/aimodule"-->
+
     <item
         android:id="@+id/news"
         android:title="@string/newsmodule"
-        android:icon="@drawable/newsmodule"
         />
+<!--        android:icon="@drawable/newsmodule"-->
+
 </menu>

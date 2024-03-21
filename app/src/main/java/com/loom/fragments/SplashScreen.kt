@@ -1,5 +1,6 @@
 package com.loom.fragments
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -17,6 +18,7 @@ private const val ARG_PARAM2 = "param2"
  * Use the [SplashScreen.newInstance] factory method to
  * create an instance of this fragment.
  */
+@SuppressLint("CustomSplashScreen")
 class SplashScreen : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
