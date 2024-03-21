@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="356dp"
+            android:layout_height="500dp"
+            android:layout_margin="20dp"
+            android:elevation="20dp"
+            card_view:cardCornerRadius="30dp"
+            tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:id="@+id/weatherIcon"
+                    android:layout_width="64dp"
+                    android:layout_height="57dp"
+                    android:contentDescription="weatherinformation"
+                    android:src="@drawable/weather_icon" />
+
+                <TextView
+                    android:id="@+id/locationTextView"
+                    android:layout_width="89dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/location"
+                    android:textSize="18sp" />
+        </androidx.cardview.widget.CardView>
+</LinearLayout>
