@@ -1,5 +1,4 @@
-package com.bottomnavigation.data
-
+package com.loom.Data
 data class WeatherData(
     val location: String,
     val temperature: String,
